@@ -458,4 +458,27 @@ public class GqlConstants {
     public static final String CLASS_SMIME_STORE_TYPE = "SMIMEStoreType";
     public static final String CLASS_SMIME_PUBLIC_CERTS_INFO = "SMIMEPublicCertsInfo";
     public static final String CLASS_SMIME_PUBLIC_CERT_INFO = "SMIMEPublicCertInfo";
+
+    //GAL Search
+    public static final String CLASS_BASIC_SEARCH_REQUEST = "BasicSearchInput";
+    public static final String CLASS_GAL_SEARCH_REQUEST = "GALSearch";
+    public static final String CLASS_SEARCH_BY = "SearchBy";
+    public static final String CLASS_MEMBER_OF_SELECTOR = "MemberOfSelector";
+    public static final String CLASS_SEARCH_FILTER = "SearchFilter";
+    public static final String CLASS_SEARCH_FILTER_MULTIPLE_CONDITIONS = "SearchFilterMultipleConditions";
+    public static final String CLASS_SEARCH_FILTER_SINGLE_CONDITION = "SearchFilterSingleCondition";
+    public static final String SEARCH_BY = "searchBy";
+    public static final String SEARCH_TYPE = "searchType";
+    public static final String INCLUDE_IS_OWNER = "includeIsOwner";
+    public static final String INCLUDE_IS_MEMBER = "includeIsMember";
+    public static final String INCLUDE_SMIME_CERTS = "includeSMIMECerts";
+    public static final String GAL_ACCOUNT_ID = "galAccountId";
+    public static final String SEARCH_FILTER = "searchFilter";
+    public static final String SINGLE_CONDITION = "singleCondition";
+    public static final String MULTIPLE_CONDITION = "multipleCondition";
+    public static final String SEARCH_FILTER_OR = "or";
+    public static final String SEARCH_FILTER_NEGATION = "not";
+    public static final String SEARCH_FILTER_ATTR = "attr";
+    public static final String SEARCH_FILTER_OP = "operation";
+    public static final String SEARCH_FILTER_VALUE = "value";
 }
